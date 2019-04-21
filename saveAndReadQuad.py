@@ -604,3 +604,5 @@ if __name__ == '__main__':
     # step 5:绘制恢复的四叉树结构并保存
     img_tree = drawTree2(tree, nodes)
     cv2.imwrite("quadtree.png", img_tree)
+    img_nodes = drawNodes2(tree)
+    cv2.imwrite("nodes.png", img_nodes)
